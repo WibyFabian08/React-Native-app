@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Image, Text, StyleSheet} from 'react-native';
-import rumah from './rumah2.jpg';
+import rumah from '../../assests/image/rumah2.jpg';
 
 const StylingReactNativeComponent = () => {
   return (

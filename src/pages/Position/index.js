@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
-import Poto from './poto.png';
+import Poto from '../../assests/image/poto.png';
 
-const PositionReactNative = () => {
+const Position = () => {
   return (
     <View style={styles.container}>
       <Text>Materi Position</Text>
@@ -15,7 +15,7 @@ const PositionReactNative = () => {
   );
 };
 
-export default PositionReactNative;
+export default Position;
 
 const styles = StyleSheet.create({
   container: {

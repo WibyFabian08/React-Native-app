@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, View, Text, TextInput} from 'react-native';
+import Gambar from '../../assests/image/poto.png';
 
 const SampleComponent = () => {
   return (
@@ -36,7 +37,7 @@ const Poto = () => {
   return (
     <Image
       style={{width: 80, height: 80, borderRadius: 40}}
-      source={require('./poto.png')}
+      source={Gambar}
     />
   );
 };
@@ -53,7 +54,7 @@ class Profile extends React.Component {
       <View style={{alignItems: 'center'}}>
         <Image
           style={{width: 80, height: 80}}
-          source={require('./poto.png')}></Image>
+          source={Gambar}></Image>
         <Text style={{textDecorationLine: 'underline'}}>
           Wiby Fabian Rianto
         </Text>

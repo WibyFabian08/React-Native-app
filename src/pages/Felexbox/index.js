@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, Image} from 'react-native';
-import Poto from './poto.png';
+import Poto from '../../assests/image/poto.png';
 
-class MateriFlexbox extends React.Component {
+class Flexbox extends React.Component {
   render() {
     return (
       <View>
@@ -45,4 +45,4 @@ class MateriFlexbox extends React.Component {
   }
 }
 
-export default MateriFlexbox;
+export default Flexbox;
