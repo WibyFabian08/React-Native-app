@@ -22,7 +22,12 @@ class Flexbox extends React.Component {
           <View
             style={{backgroundColor: '#5f27cd', width: 50, height: 200}}></View>
         </View>
-        <View style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 10}}>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'space-around',
+            marginTop: 10,
+          }}>
           <Text>Beranda</Text>
           <Text>Playlist</Text>
           <Text>Video</Text>
@@ -30,15 +35,22 @@ class Flexbox extends React.Component {
           <Text>Favorit</Text>
           <Text>Channel</Text>
         </View>
-        <View style={{flexDirection: 'row', marginTop: 10, padding: 10, alignItems: 'center'}}>
-            <Image
+        <View
+          style={{
+            flexDirection: 'row',
+            marginTop: 10,
+            padding: 10,
+            alignItems: 'center',
+          }}>
+          <Image
             source={Poto}
-            style={{width: 100, height: 100, borderRadius: 50}}>
-            </Image>
-            <View style={{marginLeft: 10}}>
-                <Text style={{fontSize: 20, fontWeight: 'bold'}}>Wiby Fabian Rianto</Text>
-                <Text style={{fontSize: 16}}>1806127</Text>
-            </View>
+            style={{width: 100, height: 100, borderRadius: 50}}></Image>
+          <View style={{marginLeft: 10}}>
+            <Text style={{fontSize: 20, fontWeight: 'bold'}}>
+              Wiby Fabian Rianto
+            </Text>
+            <Text style={{fontSize: 16}}>1806127</Text>
+          </View>
         </View>
       </View>
     );

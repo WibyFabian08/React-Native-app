@@ -16,6 +16,7 @@ const StylingReactNativeComponent = () => {
           marginTop: 20,
           marginLeft: 20,
           marginBottom: 30,
+          borderRadius: 50
         }}></View>
       <View style={styles.container}>
         <Image style={styles.image} source={rumah}></Image>
