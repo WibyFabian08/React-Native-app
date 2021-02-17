@@ -5,6 +5,7 @@ import StylingReactNativeComponent from '../src/pages/StylingReactNativeComponen
 import Flexbox from '../src/pages/Felexbox';
 import Position from '../src/pages/Position';
 import PropsDinamis from '../src/pages/PropsDinamis';
+import StateDinamis from '../src/pages/StateDinamis';
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
         {/* <Flexbox></Flexbox> */}
         {/* <StylingReactNativeComponent></StylingReactNativeComponent> */}
         {/* <SampleComponent></SampleComponent> */}
-        <PropsDinamis></PropsDinamis>
+        {/* <PropsDinamis></PropsDinamis> */}
+        <StateDinamis></StateDinamis>
       </ScrollView>
     </View>
   );
