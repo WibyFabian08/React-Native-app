@@ -7,18 +7,22 @@ import Position from '../src/pages/Position';
 import PropsDinamis from '../src/pages/PropsDinamis';
 import StateDinamis from '../src/pages/StateDinamis';
 import Communication from '../src/pages/Communication';
+import BasicJavascript from '../src/pages/BasicJavascript';
+import CallAPIVanilla from '../src/pages/CallAPIVanilla';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <Position></Position> */}
+        {/* <PropsDinamis></PropsDinamis> */}
         {/* <Flexbox></Flexbox> */}
+        {/* <Position></Position> */}
         {/* <StylingReactNativeComponent></StylingReactNativeComponent> */}
         {/* <SampleComponent></SampleComponent> */}
-        {/* <PropsDinamis></PropsDinamis> */}
         {/* <StateDinamis></StateDinamis> */}
-        <Communication></Communication>
+        {/* <Communication></Communication> */}
+        {/* <BasicJavascript></BasicJavascript> */}
+        <CallAPIVanilla></CallAPIVanilla>
       </ScrollView>
     </View>
   );
