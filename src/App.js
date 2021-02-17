@@ -8,8 +8,8 @@ import PropsDinamis from '../src/pages/PropsDinamis';
 import StateDinamis from '../src/pages/StateDinamis';
 import Communication from '../src/pages/Communication';
 import BasicJavascript from '../src/pages/BasicJavascript';
-import CallAPIVanilla from '../src/pages/CallAPIVanilla';
 import SvgFoto from '../src/pages/SvgFoto';
+import CallAPIVanilla from '../src/pages/CallAPIVanilla';
 
 const App = () => {
   return (
@@ -23,8 +23,8 @@ const App = () => {
         {/* <StateDinamis></StateDinamis> */}
         {/* <Communication></Communication> */}
         {/* <BasicJavascript></BasicJavascript> */}
-        {/* <CallAPIVanilla></CallAPIVanilla> */}
-        <SvgFoto></SvgFoto>
+        {/* <SvgFoto></SvgFoto> */}
+        <CallAPIVanilla></CallAPIVanilla>
       </ScrollView>
     </View>
   );
