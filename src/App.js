@@ -9,6 +9,7 @@ import StateDinamis from '../src/pages/StateDinamis';
 import Communication from '../src/pages/Communication';
 import BasicJavascript from '../src/pages/BasicJavascript';
 import CallAPIVanilla from '../src/pages/CallAPIVanilla';
+import SvgFoto from '../src/pages/SvgFoto';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
         {/* <StateDinamis></StateDinamis> */}
         {/* <Communication></Communication> */}
         {/* <BasicJavascript></BasicJavascript> */}
-        <CallAPIVanilla></CallAPIVanilla>
+        {/* <CallAPIVanilla></CallAPIVanilla> */}
+        <SvgFoto></SvgFoto>
       </ScrollView>
     </View>
   );
