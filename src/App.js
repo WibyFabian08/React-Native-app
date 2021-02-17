@@ -10,6 +10,7 @@ import Communication from '../src/pages/Communication';
 import BasicJavascript from '../src/pages/BasicJavascript';
 import SvgFoto from '../src/pages/SvgFoto';
 import CallAPIVanilla from '../src/pages/CallAPIVanilla';
+import CallAPIAxios from '../src/pages/CalAPIAxios';
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
         {/* <Communication></Communication> */}
         {/* <BasicJavascript></BasicJavascript> */}
         {/* <SvgFoto></SvgFoto> */}
-        <CallAPIVanilla></CallAPIVanilla>
+        {/* <CallAPIVanilla></CallAPIVanilla> */}
+        <CallAPIAxios></CallAPIAxios>
       </ScrollView>
     </View>
   );
