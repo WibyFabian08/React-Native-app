@@ -34,7 +34,7 @@ const CallAPIAxios = () => {
     //post
     Axios.post('https://reqres.in/api/users', postData)
       .then((result) => {
-        setJobData(result.data)
+        setJobData(result.data);
       })
       .catch((err) => console.log(err));
   };

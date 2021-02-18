@@ -11,6 +11,7 @@ import BasicJavascript from '../src/pages/BasicJavascript';
 import SvgFoto from '../src/pages/SvgFoto';
 import CallAPIVanilla from '../src/pages/CallAPIVanilla';
 import CallAPIAxios from '../src/pages/CalAPIAxios';
+import Crud from '../src/pages/Crud';
 
 const App = () => {
   return (
@@ -26,7 +27,8 @@ const App = () => {
         {/* <BasicJavascript></BasicJavascript> */}
         {/* <SvgFoto></SvgFoto> */}
         {/* <CallAPIVanilla></CallAPIVanilla> */}
-        <CallAPIAxios></CallAPIAxios>
+        {/* <CallAPIAxios></CallAPIAxios> */}
+        <Crud></Crud>
       </ScrollView>
     </View>
   );

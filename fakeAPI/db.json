@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Valentino Rosi",
+      "email": "rosi@mail.com",
+      "bidang": "Racer",
+      "id": 4
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "email": "ronaldo@gmail.com",
+      "bidang": "Sepak Bola",
+      "id": 5
+    },
+    {
+      "name": "Klyan Mbape",
+      "email": "mbappe@gmail.com",
+      "bidang": "Sepak Bola",
+      "id": 6
+    }
+  ]
+}
